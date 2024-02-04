@@ -1,4 +1,14 @@
-.title-name {
-    text-decoration: dashed solid seagreen;
-    background-color: chartreuse;
+.title-name,
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    padding-left: 20px;
 }

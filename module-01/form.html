@@ -13,30 +13,50 @@
 
 
     <form>
-        <label for="name">Name:</label>
-        <input type="text"><br><br>
+        <!--here shown the work for filedset and radio button-->
+        <fieldset>
+            <legend>pick one</legend>
+            <label for="lip">Choose lipstick</label><br>
+            <input type="radio" id="lip">
+            Lipstick<br>
+            <input type="radio" id="lip">
+            Lipbum<br>
+            <input type="radio" id="lip">
+            Mattee Lipglose<br>
+        </fieldset>
 
-        <label for="sex">Sex:</label>
-        <input type="radio" id="sex" value="male">
-        <label for="sex">Male</label>
-        <input type="radio" name="sex" id="sex" value="female">
-        <label for="sex">Female</label> <br><br>
 
-        <label for="country">Country: </label>
-        <select name="country" id="country">
-            <option>Select an option</option>
-            <option value="nepal">Nepal</option>
-            <option value="usa">USA</option>
-            <option value="australia">Australia</option>
+        <!--Here shown the work for a textfield to write anyting like comment, description etc-->
+        <br><textarea name="Lip products " id="" cols="204" rows="10"
+            placeholder="Please describe abput your favorite lip products"></textarea><br><br>
+
+
+        <!--Here shown the work for drop-down list-->
+        <label for="hair">Select your hair shampoo</label>
+        <select name="" id="hair">
+            <option value="">Select and option</option>
+            <option value="">Pantene shampoo</option>
+            <option value="">Dove shampoo</option>
+            <option value="">Head & shoulder shampoo</option>
         </select><br><br>
 
 
-        <label for="message">Message:</label><br>
-        <textarea name="message" id="message" cols="30" rows="4"></textarea><br><br>
+
+        <!--here shown the work for checkbox menu-->
+        <label>Choose your face wash name:</label><br>
+        <input type="checkbox" id="facewash">
+        <label for="facewash">Ponds</label><br>
+        <input type="checkbox" id="facewash">
+        <label for="facewash">Garnier</label><br>
+        <input type="checkbox" id="facewash">
+        <label for="facewash">Fair & lovely</label><br><br>
 
 
-        <input type="checkbox" name="newsletter" id="newsletter">
-        <label for="newsletter">Subscribe?</label><br><br>
+
+        <!--here this menu will reset everything like before-->
+        <input type="reset" id="rest">
+
+
         <input type="submit" value="Submit">
     </form>
 
